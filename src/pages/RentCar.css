@@ -1,0 +1,65 @@
+ h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1c0c53;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  span {
+    font-size: 28px;
+    color: #0a365a;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left: 800px;
+
+  }
+  
+  button {
+    background-color: #012245;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    font-family: Monaco, monospace;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0a365a;
+  }
+  
+  Select {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  Select:focus {
+    outline: none;
+    border-color: #012245;
+    box-shadow: 0 0 4px #012245;
+  }
+
+  select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button#rent-now-button {
+    margin-left: 800px;
+    display: flex;
+  }

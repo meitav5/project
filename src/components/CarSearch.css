@@ -1,0 +1,75 @@
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1c0c53;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #012245;
+    box-shadow: 0 0 4px #012245;
+    font-family: Monaco, monospace;
+    text-align: center;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 28px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    appearance: none;
+    background: url("https://image.flaticon.com/icons/svg/25/25426.svg") no-repeat right #fff;
+    background-size: 30px;
+    font-family: Monaco, monospace;
+    
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #012245;
+    box-shadow: 0 0 4px #012245;
+  }
+  
+  button {
+    background-color: #012245;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 28px;
+    transition: background-color 0.3s ease;
+    margin-right: 60px;
+  }
+  
+  label {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    margin-left: 120px;
+  }
+ 
